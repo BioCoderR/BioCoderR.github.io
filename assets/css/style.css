@@ -1,8 +1,11 @@
 
 body {
+  margin:0;
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+/* ---- reset ---- 
+canvas{ display: block; vertical-align: bottom; } */  
 
 a {
   color: #149ddd;
@@ -281,6 +284,8 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
 #hero {
   width: 100%;
   height: 100vh;
