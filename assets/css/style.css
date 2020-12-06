@@ -284,15 +284,17 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/* ---- particles.js container ---- */
 
-
-#hero {
+#particles-js{
   width: 100%;
-  height: 100vh;
-  background: url("assets/images/prof-pic.jpg") top center;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('');
   background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
-
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
