@@ -287,13 +287,6 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
-.hero
-{
-  background: url("assets/images/prof-pic.jpg");
-
-}
-
-
 #hero:before {
   content: "";
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/prof-pic.jpg");
