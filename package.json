@@ -1,8 +1,32 @@
-@@ .. @@
-   "scripts": {
-     "dev": "vite",
-     "build": "vite build",
--    "preview": "vite preview"
-+    "preview": "vite preview",
-+    "deploy": "npm run build"
-   },
+{
+  "name": "biocoderr.github.io",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:prod": "vite build --mode production",
+    "preview": "vite preview",
+    "analyze": "vite-bundle-analyzer",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint src --ext js,jsx --fix",
+    "deploy": "npm run build:prod",
+    "serve": "vite preview --port 3000",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.536.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "web-vitals": "^5.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "terser": "^5.43.1",
+    "vite": "^7.0.6"
+  }
+}
